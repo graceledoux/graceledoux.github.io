@@ -1,6 +1,22 @@
 body{
   font-family:sans-serif;
   font:helvetica;
-  background:black;
+  background:rgb(237, 150, 11);
   color:white;
+}
+
+h1{
+  text-align:center;
+  font-size:70px;
+  letter-spacing:.25em;
+  border-style:solid;
+  padding:40px;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+h2{
+  text-align:center;
+  letter-spacing:.2em;
+  position:static;
 }
