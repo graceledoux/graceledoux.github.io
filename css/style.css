@@ -41,7 +41,6 @@ h2{
 
 p{
   font-size:14px;
-  color:white;
   text-align:center;
 }
 
@@ -51,7 +50,7 @@ a{
 }
 
 a:hover{
-  color:yellow;
+  color:black;
 }
 
 .col-1{
