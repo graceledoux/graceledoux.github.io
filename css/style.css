@@ -39,6 +39,21 @@ h2{
   font-size:20px;
 }
 
+p{
+  font-size:14px;
+  color:white;
+  text-align:center;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+
+a:hover{
+  color:yellow;
+}
+
 .col-1{
   padding-top:40px;
   width:38%;
