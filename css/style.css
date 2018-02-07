@@ -40,12 +40,16 @@ h2{
 }
 
 p{
-  font-size:14px;
+  font-size:20px;
   text-align:center;
+  color:black;
+  font: georgia;
+  font-family:serif;
+  padding-top: 20px;
 }
 
 a{
-  color:white;
+  color:rgb(237, 150, 11);
   text-decoration:none;
 }
 
