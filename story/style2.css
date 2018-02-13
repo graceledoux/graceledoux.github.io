@@ -1,0 +1,306 @@
+body{
+  background-image: url("images/trees.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 150%;
+    height: 4500px;
+}
+
+h1{
+  font-size:40px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  line-height: 1.2em;}
+
+p{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+  }
+
+
+
+
+
+#header{
+  color:rgb(16, 84, 24);
+  text-align:center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color:white;
+    width: 200px;
+    height: 200px;
+    background-image: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#movedto{
+  font-family: 'Playfair Display', serif;
+  color:white;
+  font-size:18px;
+  text-align:center;
+}
+
+#move{
+  position:relative;
+  top:150px;
+}
+
+#seattle{
+  width: 100%;
+  position: absolute;
+  margin-left: 0px;
+  top: 700px;
+  z-index:-1;
+
+}
+
+#text1{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color:black;
+  position: relative;
+  top: 1000px;
+  left:550px;
+}
+
+#text2{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color:black;
+  position: relative;
+  top: 1100px;
+  left:600px;
+}
+
+
+
+#rain{
+  width: 50%;
+  top:1200px;
+  position:absolute;
+  opacity: .75;
+}
+
+
+
+#text3{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  position: relative;
+  top: 3400px;
+  left:200px;
+}
+
+
+#records{
+  top:3000px;
+  width:100%;
+  height:800px;
+  /*overflow: auto;*/
+  position:absolute;
+}
+#nirvana{
+  width: 500px;
+  position: absolute;
+  left:60%;
+  -webkit-transition: all 6s ease-out;
+        -moz-transition: all 6s ease-out;
+        -o-transition: all 6s ease-out;
+        -ms-transition: all 6s ease-out;
+        transition: all 6s ease-out;
+}
+
+#nirvana:hover{
+  transform: rotate(360deg);
+  transition:6s;
+}
+
+
+#soundg{
+  width: 320px;
+  position: absolute;
+  left:34%;
+  -webkit-transition: all 6s ease-out;
+        -moz-transition: all 6s ease-out;
+        -o-transition: all 6s ease-out;
+        -ms-transition: all 6s ease-out;
+        transition: all 6s ease-out;
+
+}
+
+#soundg:hover{
+  transform: rotate(360deg);
+  transition:6s;
+}
+
+#utero{
+  width: 320px;
+  position: absolute;
+  padding-top: 40px;
+  left:5%;
+  -webkit-transition: all 6s ease-out;
+        -moz-transition: all 6s ease-out;
+        -o-transition: all 6s ease-out;
+        -ms-transition: all 6s ease-out;
+        transition: all 6s ease-out;
+}
+
+#utero:hover{
+  transform: rotate(360deg);
+  transition:6s;
+}
+
+
+.collection{
+  top:800px;
+  width:100%;
+  position:absolute;
+}
+#needle{
+  width:250px;
+  position:absolute;
+  top:3500px;
+  left:100px;
+  transform: rotate(5deg);
+  -webkit-transition: all 2s ease-out;
+        -moz-transition: all 2s ease-out;
+        -o-transition: all 2s ease-out;
+        -ms-transition: all 2s ease-out;
+        transition: all 2s ease-out;
+}
+
+#needle:hover{
+  transform: rotate(0deg) scale(1.3);
+  transition: 1s;
+}
+
+#mudhoney{
+  width:500px;
+  position:absolute;
+  top:3500px;
+  right:70px;
+  transform:rotate(5deg);
+  transition: all 2s ease-out;
+}
+
+#mudhoney:hover{
+  transform:rotate(0deg);
+  transition:1s;
+}
+
+#napkin{
+  width:600px;
+  position:absolute;
+  top:3600px;
+  left:300px;
+  transform:rotate(-5deg);
+  z-index:-1;
+}
+
+#coffee{
+  animation-delay: 5s;
+  width: 350px;
+  position: absolute;
+  top: 3700px;
+  left:350px;
+  opacity: 0;
+  -webkit-transition: all 10s ease-out;
+        -moz-transition: all 10s ease-out;
+        -o-transition: all 10s ease-out;
+        -ms-transition: all 10s ease-out;
+        transition: all 10s ease-out;
+}
+
+#coffee:hover{
+  opacity: 1;
+  transition: 1s;
+}
+
+#text4{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  position: relative;
+  top: 5100px;
+  left:500px;
+  padding-bottom:300px;
+}
+
+#circle{
+  position:absolute;
+  top:5800px;
+  left:40%;
+  background-color:black;
+  width: 200px;
+  height: 200px;
+  background-image: white;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+margin-bottom:300px;
+transform:scale(.75);
+opacity:.25;
+transition: all 5s ease-out;}
+
+  #next{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    text-align:center;
+    position:absolute;
+    top:65px;
+    left:40%;
+    z-index:2;
+  }
+
+#circle:hover{
+  opacity:1;
+  transition:2s;
+  transform:scale(1);
+  background-color:white;
+
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+a:hover{
+  color:orange;
+}
+
+
+#footer{
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  color:black;
+  text-align:center;
+  padding-left: 25px;
+  bottom:0px;
+  position:fixed;
+  z-index:1;
+}
+
+#sound{
+  position:fixed;
+  width:100%;
+  background-color:white;
+  bottom:0px;
+  padding-top:2px;
+  z-index:-1;
+  opacity: .5;
+}
+
+audio{
+  position:relative;
+  left:100px;
+  opacity: .5;
+  z-index:3;
+}
