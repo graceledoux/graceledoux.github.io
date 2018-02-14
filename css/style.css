@@ -1,7 +1,6 @@
 
 body{
   background:white;
-  color:rgb(237, 150, 11);
   margin: 0 auto;
   font-family:serif;
   font:georgia;
@@ -10,11 +9,13 @@ body{
 
 h1{
   text-align:center;
-  font-size:79px;
-  letter-spacing:.25em;
-  font-family: "cooper-black-std";
+  font-size:95px;
+  letter-spacing:.1em;
+  font-family: "industry-inc-3d";
+  color:rgb(237, 150, 11);
 
 }
+
 
 #header{
   border-style:solid;
@@ -29,23 +30,61 @@ h1{
 
 }
 
+#divider{
+  border-bottom:2px;
+  border-top:0px;
+  border-left:0px;
+  border-right:0px;
+  border-style:solid;
+  border-color:rgb(237, 150, 11);
+  width:70%;
+  margin: 0 auto;
+  padding-top:100px;
+}
+
 
 
 h2{
   text-align:center;
+  font-family: "futura-pt";
   letter-spacing:.2em;
   position:static;
   margin:0 auto;
-  font-size:20px;
+  font-size:30px;
+  color:rgb(237, 150, 11);
 }
+
+
+#name{
+  text-align:center;
+  font-family: "futura-pt";
+  letter-spacing:.2em;
+  position:fixed;
+  transform: rotate(-90deg);
+  left:-3%;
+  top:15%;
+  font-size:18px;
+  color:rgb(237, 150, 11);
+  transition: all 1s ease-out;
+  opacity:.5;
+}
+
+#name:hover{
+  transform: rotate(0deg);
+  opacity:1;
+  left:3%;
+  transition:1s;
+
+}
+
 
 p{
   font-size:20px;
   text-align:center;
   color:black;
-  font: georgia;
-  font-family:serif;
+  font-family: "futura-pt";
   padding-top: 20px;
+  color:rgb(237, 150, 11);
 }
 
 a{
@@ -94,4 +133,47 @@ img{
 
 img:hover{
   width:110%;
+}
+
+.rowhold{
+  position:absolute;
+  height:300px;
+  width:80%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align:center;
+  align-items: center;
+  left:5%;
+  margin-top:30px;
+}
+
+
+
+#cell{
+  position:relative;
+  width: 200px;
+	height: 200px;
+  background:rgb(237, 150, 11);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;*/
+  text-align:center;
+  transition: all 2s ease-out;
+
+}
+
+#cell:hover{
+  background:rgb(249, 211, 87);
+  transform:scale(1.1);
+  transition:1.5s;
+}
+
+#button{
+  font-size:24px;
+  text-align:center;
+  color:white;
+  font-family: "futura-pt";
+  padding-top: 60px;
 }

@@ -1,0 +1,32 @@
+body{
+
+}
+
+h1 {
+  font-family: "blenny";
+  position:absolute;
+  z-index:2;
+  top:300px;
+  }
+
+
+#poster{
+width:45%;
+left:30%;
+position:absolute;
+top:-100px;
+
+}
+
+
+
+#paper{
+  z-index:-3;
+  /*width:60%;*/
+  transform: rotate(90deg);
+  position:relative;
+  width:100%;
+  opacity:.5;
+      /*left:20%;
+      top:0px;*/
+}
