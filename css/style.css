@@ -11,14 +11,23 @@ h1{
   text-align:center;
   font-size:95px;
   letter-spacing:.1em;
-  font-family: "industry-inc-3d";
+  font-family: "blenny";
   color:rgb(237, 150, 11);
 
+}
+
+#gallery{
+  text-align:center;
+  font-size:95px;
+  letter-spacing:.1em;
+  color:rgb(42, 107, 5);
+  font-family: "industry-inc-3d";
 }
 
 
 #header{
   border-style:solid;
+  border-color:rgb(42, 107, 5);
   padding:30px;
   width:100%;
   margin-top:20px;
@@ -128,11 +137,17 @@ img{
   margin: 0;
   padding-top:5%;
   padding-bottom:5%;
+  transition: all 1s ease-out;
+  opacity: .75;
+  filter: grayscale(100%);
 
 }
 
 img:hover{
-  width:110%;
+  transform: scale(1.1);
+  opacity:1;
+  transition: 1s;
+  filter: grayscale(0%);
 }
 
 .rowhold{
@@ -176,4 +191,22 @@ img:hover{
   color:white;
   font-family: "futura-pt";
   padding-top: 60px;
+}
+
+footer{
+  position:fixed;
+  bottom:10px;
+  left:10px;
+
+}
+
+#back{
+  font-family: "futura-pt";
+  color:rgb(42, 107, 5);
+  font-size:20px;
+}
+
+#back:hover{
+  color:black;
+  transition: 1s;
 }
