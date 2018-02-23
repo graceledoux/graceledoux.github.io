@@ -1,0 +1,315 @@
+@media only screen  and (min-width : 1224px){
+
+#desktop{
+  visibility: visible;
+}
+
+#phone{
+  visibility:hidden;}
+
+
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+
+p{
+  font-family: "futura-pt";
+  color:black;
+  font-size: 24px;
+  text-align:justify;
+  line-height: 1.2em;
+  opacity:1
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:orange;
+}
+
+#sound{
+  position:fixed;
+  opacity: .25;
+  z-index:3;
+  top: 0px;
+}
+#sound:hover{
+  opacity: 1;
+}
+
+#fold{
+  width: 50%;
+  position: fixed;
+  left:600px;
+  z-index: -1;
+  top: 0px;
+}
+
+#story{
+  width: 40%;
+  position: absolute;
+  z-index: -2;
+  left:20px;
+  top:50px;
+  animation-name: words;
+  animation-duration: 300s;
+  animation-iteration-count: 1;
+  animation-delay: 10s;
+
+}
+
+#story:hover{
+  transform:scale(.5) rotate(-200deg);
+  transition:2s;
+  -webkit-transition: all 3s ease-out;
+  color:red;
+}
+
+
+@keyframes words{
+  0% {transform: rotate(0deg) scale(1);
+      opacity:1;
+      color:black;}
+  5% {transform: rotate(180deg) scale(1.5);
+      opacity: .5}
+  10% {transform: scale(3) rotate(360deg);
+        opacity: 0;}
+  100% {transform: scale(3) rotate(360deg);
+        opacity: 0;
+        color:red;}
+}
+
+#story2{
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  left:700px;
+  top:400px;
+  animation-name: words2;
+  animation-duration: 40s;
+  animation-delay: 45s;
+
+}
+
+@keyframes words2{
+  0% {left:700px;
+      top:400px;
+      transform: rotate(0deg);
+      }
+  1% {left:710px;
+      top:410px;
+      transform: rotate(2deg);}
+  2% {left:700px;
+      top:400px;
+      transform: rotate(0deg)}
+  3% {left:700px;
+      top:450px;
+      transform: rotate(3deg)}
+  4%{left:700px;
+      top:500px;
+      transform: rotate(5deg)}
+  5%{left:700px;
+      top:900px;
+      transform: rotate(7deg)}
+  10% {left:700px;
+      top:1200px;
+      transform: rotate(7deg)}
+  100% {left:700px;
+      top:1200px;
+    transform: rotate(7deg);
+    }
+}
+
+#bed{
+  width:400px;
+  position:absolute;
+  top:400px;
+  left:90px;
+}
+
+#scribble{
+  position:absolute;
+  width:100px;
+  top:420px;
+  left:140px;
+}
+
+
+#circle1 {
+	width: 100px;
+	height: 100px;
+  position:absolute;
+  z-index: 3;
+  top:200px;
+  left:200px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  animation-name: circle1;
+  animation-duration:30s;
+  animation-delay:0s;
+}
+#bubble{
+  width:350px;
+  position:absolute;
+  right:300px;
+  top:250px;
+  opacity: 0;
+  animation-name:bubble;
+  animation-duration:100s;
+  animation-delay: 10s;
+  -webkit-transition: all 10s ease-out;
+  -moz-transition: all 10s ease-out;
+  -o-transition: all 10s ease-out;
+  -ms-transition: all 10s ease-out;
+  transition: all 10s ease-out;
+}
+
+#bubble:hover{
+  opacity: 1;
+  transition:1s;
+  transform: rotate(10deg);
+}
+
+
+@keyframes bubble{
+  0% {opacity: 0;
+    transform: scale(.75);}
+  1% {opacity: 0;
+    transform: scale(.75);}
+  10% {opacity:.5;
+      transform: scale(1.2) rotate(180deg);}
+  100% {opacity: 0;
+      transform: scale(1.2);}
+}
+
+#bubble2{
+  width:350px;
+  position:absolute;
+  right:40px;
+  top:20px;
+  opacity: 0;
+  z-index:1;
+  -webkit-transition: all 10s ease-out;
+  -moz-transition: all 10s ease-out;
+  -o-transition: all 10s ease-out;
+  -ms-transition: all 10s ease-out;
+  transition: all 10s ease-out;
+}
+
+#bubble2:hover{
+  opacity:1;
+  transform: scale(1.1) rotate(140deg);
+  transition: 3s;
+}
+
+#bubble3{
+  width:300px;
+  top:10px;
+  right:500px;
+  opacity: 0;
+  position:absolute;
+  -webkit-transition: all 10s ease-out;
+  -moz-transition: all 10s ease-out;
+  -o-transition: all 10s ease-out;
+  -ms-transition: all 10s ease-out;
+  transition: all 10s ease-out;
+}
+
+#bubble3:hover{
+  opacity:1;
+  transform: scale(5) rotate(10deg);
+  transition: 5s;
+}
+
+
+#psych{
+  height: 800px;
+  position:absolute;
+  left:400px;
+  transform: rotate(-90deg);
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: all 30s ease-out;
+  -moz-transition: all 30s ease-out;
+  -o-transition: all 30s ease-out;
+  -ms-transition: all 30s ease-out;
+  transition: all 30s ease-out;
+}
+
+#psych:hover{
+  opacity:1;
+  transition: 5s;
+  width: 100%;
+}
+
+#eyes{
+position:absolute;
+width:650px;
+top:100px;
+left:80px;
+z-index: -5;
+animation-name:eyes;
+animation-duration: 300s;
+}
+
+@keyframes eyes{
+  0% {opacity: 0;}
+  9% {opacity:0;}
+  10%{opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:1;}
+}
+
+
+#something{
+  font-family: "flower-power",sans-serif;
+  color:black;
+  font-size: 40px;
+  top:80px;
+  left:20px;
+  position:absolute;
+  text-align:justify;
+  line-height: 1.2em;
+  animation-name: prompt;
+  animation-duration:100s;
+}
+
+@keyframes prompt{
+  0% {opacity: 0;}
+
+  53%{opacity:0;
+  }
+54%{opacity:1;}
+  100% {opacity:1;}
+}}
+
+@media only screen  and (max-width : 1223px){
+#desktop{
+  visibility: hidden;
+}
+
+#phone{
+  visibility:visible;
+}
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+h3{
+  font-family: 'futura-pt';
+  font-size: 30px;
+  position: absolute
+  ;
+  color:black;
+}
+
+
+}

@@ -1,0 +1,164 @@
+@media only screen  and (min-width : 1224px){
+
+#desktop{
+  visibility: visible;
+}
+
+#phone{
+  visibility:hidden;}
+
+
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+
+p{
+  font-family: "futura-pt";
+  color:black;
+  font-size: 24px;
+  text-align:justify;
+  line-height: 1.2em;
+  opacity:1
+}
+
+h2{
+  font-family: 'Flower-Power';
+  font-size: 45px;
+  color:black;
+  position:absolute;
+  top:500px;
+  right:60px;
+  transform: rotate(10deg);
+  animation-name: prompt;
+  animation-duration: 100s;
+}
+
+@keyframes prompt{
+  0% {opacity: 0;}
+  29% {opacity:0}
+  30% {opacity:1}
+  100% {opacity:1}
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+a:hover{
+  color:orange;
+}
+
+
+#sound{
+  position:fixed;
+  opacity: .25;
+  top: 0px;
+}
+#sound:hover{
+  opacity: 1;
+}
+
+#fold{
+  width: 50%;
+  position: fixed;
+  left:600px;
+  z-index: -5;
+  top: 0px;
+}
+
+#story{
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  left:700px;
+  top:100px;
+  transition: all 2000s ease-out;
+
+}
+
+#story:hover{
+  opacity:.5;
+  transition: 2s;
+  transform: rotate(30deg);
+  top: -600px;
+}
+
+
+#colors{
+  width:100%;
+  position:absolute;
+  z-index:-6;
+  top: 0px;
+  left:0px;
+  height:100%;
+  opacity: 0;
+  transition: all 5000s ease-out;
+}
+
+#colors:hover{
+  opacity: 1;
+  transition: 5s;
+}
+
+#waldo{
+  width:160px;
+  position:absolute;
+  left:430px;
+  top:110px;
+}
+
+#scribble{
+  width:120px;
+  position:absolute;
+  left:460px;
+  top:160px;
+  transition: all 1s ease-out;
+}
+
+#scribble:hover{
+  transform: scale(1.6) rotate(3deg);
+  transition: 1s;
+}
+
+
+#mail{
+  width:300px;
+  position:absolute;
+  top:100px;
+  left:100px;
+  opacity: 0;
+  transition: all 5000s ease-out;
+}
+
+#mail:hover{
+  opacity: 1;
+  transition: 2s;
+  transform: rotate(-3deg) scale(1.2);
+}}
+
+@media only screen  and (max-width : 1223px){
+#desktop{
+  visibility: hidden;
+}
+
+#phone{
+  visibility:visible;
+}
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+h3{
+  font-family: 'futura-pt';
+  font-size: 30px;
+  position: absolute
+  ;
+  color:black;
+}
+
+
+}

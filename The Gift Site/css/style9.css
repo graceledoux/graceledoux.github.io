@@ -1,0 +1,198 @@
+@media only screen  and (min-width : 1224px){
+
+#desktop{
+  visibility: visible;
+}
+
+#phone{
+  visibility:hidden;}
+
+
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+
+p{
+  font-family: "futura-pt";
+  color:black;
+  font-size: 24px;
+  text-align:left;
+  line-height: 1.2em;
+  opacity:1
+}
+
+
+#sound{
+  position:fixed;
+  opacity: .25;
+  top: 0px;
+}
+#sound:hover{
+  opacity: 1;
+}
+
+#fold{
+  width: 50%;
+  position: fixed;
+  left:600px;
+  z-index: -1;
+  top: 0px;
+}
+
+#story{
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  left:50px;
+  top:20px;
+  transition: all 5000s ease-out;
+
+}
+
+#story:hover{
+  transform: rotate(30deg);
+  opacity: 0;
+  left: -500px;
+  transition: 1s;
+}
+
+#story2{
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  left:700px;
+  top:300px;
+transition: all 5000s ease-out;
+}
+
+#story2:hover{
+  opacity: 0;
+  transform: rotate(-50deg);
+  transition: 2s;
+  bottom: -400px;
+}
+
+#glow{
+  position: absolute;
+  width: 70%;
+  left:130px;
+  animation-name: glow;
+  animation-duration: 100s;
+}
+
+@keyframes glow{
+  0%{opacity: 0}
+  30%{opacity: 1}
+  100%{opacity: 1}
+}
+
+#box{
+  width: 800px;
+  position: fixed;
+  top: 350px;
+  left:200px;
+  animation-name: box;
+  animation-duration: 100s;
+}
+
+@keyframes box{
+  0% {opacity: 0}
+  5% {opacity: 0}
+  7%{opacity: 1;
+    transform: rotate(0deg);}
+  8% {opacity: 1;
+      transform:rotate(3deg);}
+  9% {opacity: 1;
+      transform:rotate(0deg);}
+  20%{opacity: 1;
+      transform:rotate(0deg);}
+  21%{opacity: 1;
+      transform:rotate(3deg);}
+  22%{opacity: 1;
+      transform:rotate(0deg);}
+
+  30%{opacity: 1;
+      transform:rotate(0deg);}
+  31%{opacity: 1;
+      transform:rotate(-3deg);}
+  32%{opacity: 1;
+      transform:rotate(0deg);}
+
+  40%{opacity: 1;
+      transform:rotate(0deg);}
+  41%{opacity: 1;
+      transform:rotate(4deg);}
+  42% {opacity: 1;
+      transform:rotate(0deg);}
+  100% {opacity: 1}
+}
+
+#shards{
+  position: absolute;
+  width: 80%;
+  left:150px;
+  opacity: 0;
+  transition: all 10s ease-out;
+}
+
+#shards:hover{
+  opacity: 1;
+  transition: 5s;
+  transform: scale(1.2);
+}
+
+h2{
+  font-family: "hwt-mardell";
+  font-size: 90px;
+  transform: rotate(-15deg);
+  position: absolute;
+  top:410px;
+  left:550px;
+  animation-name: prompt;
+  animation-duration: 100s;
+
+}
+
+@keyframes prompt{
+  0% {opacity: 0;}
+  53%{opacity: 0;}
+  54% {opacity:1;}
+  100%{opacity: 1;}
+}
+
+
+a{
+  color:black;
+  text-decoration:none;
+  cursor:default;
+}
+
+a:hover{
+  color:red;
+  cursor:default;
+}}
+@media only screen  and (max-width : 1223px){
+#desktop{
+  visibility: hidden;
+}
+
+#phone{
+  visibility:visible;
+}
+
+body{
+  background-color:rgb(255, 251, 242);
+}
+
+h3{
+  font-family: 'futura-pt';
+  font-size: 30px;
+  position: absolute
+  ;
+  color:black;
+}
+
+
+}

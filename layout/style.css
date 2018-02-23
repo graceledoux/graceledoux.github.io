@@ -1,0 +1,212 @@
+@media only screen and (min-width: 768px){
+
+/*desktop*/
+
+body{
+  font-family: "futura-pt";
+}
+header {
+  background: rgb(239, 162, 9);
+  padding: 50px;
+  color: #fff;
+  font-family: "hwt-mardell";
+  font-size:70px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-style:solid;
+  border-color:rgb(239, 162, 9);
+  border-radius:10px;
+}
+
+h2{
+  font-family:"futura-pt";
+
+}
+
+
+
+
+
+nav {
+  float: left;
+  width: 100px;
+  padding: 15px;
+  border-style:solid;
+  border-color:rgb(239, 162, 9);
+  border-radius:10px;
+  margin-top:20px;
+  margin-left:10px;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover{
+  color:red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding:10px;
+  margin-left: 200px;
+  margin-right:200px;
+}
+
+a{text-decoration:none;
+color:black;}
+
+
+
+
+footer {
+  padding: 10px;
+  opacity: .25;
+  clear: both;
+  text-align:center;
+  margin-top:100px;
+  position:fixed;
+  bottom:10px;
+}
+}
+
+@media only screen and (max-width: 767px){
+/*tablet*/
+
+
+  body{
+    font-family: "futura-pt";
+    font-size: 24px;
+  }
+
+  header {
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 95%;
+    background:white;
+    color: rgb(239, 162, 9);
+    font-family: "hwt-mardell";
+    font-size:90px;
+    text-align: center;
+  }
+
+  nav {
+    width: 90%;
+    padding: 15px;
+    background:rgb(239, 162, 9);
+    border-style:solid;
+    border-color:rgb(239, 162, 9);
+    border-radius:10px;
+    margin-left:20px;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-align:center;
+  }
+
+  article {
+    padding: 20px 10px;
+    margin-left:20px;
+    margin-top:60px;
+  }
+
+  a{text-decoration:none;
+  color:black;}
+
+
+  footer {
+    padding: 10px;
+    opacity: .25;
+    clear: both;
+    position:fixed;
+    bottom:20px;
+    text-align:center;
+    margin-top:100px;
+    font-size:24px;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+/*phone*/
+
+
+body{
+  font-family: "futura-pt";
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 95%;
+  color: black;
+  font-family: "hwt-mardell";
+  font-size:80px;
+  text-align: center;
+}
+
+.column{
+  width:100%;
+}
+
+nav {
+  width: 90%;
+  padding: 15px;
+  background:rgb(239, 162, 9);
+  border-style:solid;
+  border-color:rgb(239, 162, 9);
+  border-radius:10px;
+}
+
+nav a {
+  color: white;
+  font-size:30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding: 20px 10px;
+}
+
+a{text-decoration:none;
+color:black;}
+
+
+footer {
+  padding: 10px;
+  opacity: .5;
+  clear: both;
+  text-align:center;
+  margin-top:100px;
+  font-size:12px;
+}
+}
