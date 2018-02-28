@@ -153,14 +153,14 @@ img:hover{
 .rowhold{
   position:absolute;
   height:300px;
-  width:80%;
+  width:70%;
   display:flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: space-around;
   text-align:center;
   align-items: center;
-  left:10%;
+  left:15%;
   margin-top:30px;
 }
 
