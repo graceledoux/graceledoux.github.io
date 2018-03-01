@@ -1,0 +1,250 @@
+body#css-zen-garden{
+font-family: helvetica;
+
+width: 80%;
+margin-left:10%;
+margin-bottom: 100px;
+}
+
+header{
+	width: 600px;
+	height: 600px;
+	background-image: url("images/moss.jpg");
+	background-size: 100%;
+	/*padding: 30px;*/
+	animation-name: title;
+	animation-duration: 2s;
+	/*box-shadow: 10px 10px 10px gray;*/
+	z-index: 3;
+	margin-top: 50px;
+	margin-left: 20%;
+	border-radius: 300px;
+	transition: all 1s ease-out;
+
+}
+
+
+header:hover{
+	transform: scale(1.05);
+	transition: 1s;
+}
+h1{
+font-size: 65px;
+color:white;
+text-align:center;
+padding-top: 230px;
+/*padding-left: 20px;
+padding-right: 20px;*/
+padding-bottom: 0px;
+
+}
+
+@keyframes title{
+	0% {
+		transform: scale(.9)}
+	100% {transform: scale(1);}
+}
+
+h2{
+text-align: center;
+color:white;
+font-size: 30px;
+padding-bottom: 50px;
+margin-bottom: 50px;
+opacity: .9;
+}
+
+h3{
+
+}
+p{
+	line-height: 1.4em;
+	font-family:"Helvetica";
+
+}
+
+
+#page-wrapper{
+
+}
+
+.intro{
+/*background-color:white;*/
+/*padding: 30px;*/
+
+}
+
+#zen-intro{
+
+}
+
+#banner{
+}
+
+
+
+.summary{
+	padding: 30px;
+}
+
+#zen-summary{
+background-color:white;
+padding: 30px;
+margin-bottom: 20px;
+position: relative;
+z-index: 1;
+margin-top: 100px;
+font-style: italic;
+opacity: .5;
+
+
+}
+
+a{
+color:rgb(183, 183, 183);
+text-decoration: none;
+}
+
+a:hover{
+	color: rgb(10, 91, 11);
+	text-decoration:underline;
+}
+
+.preamble{
+padding: 30px;
+margin-bottom: 50px;
+
+}
+
+#zen-preamble{
+padding: 30px;
+margin-bottom: 50px;
+background-color:rgb(247, 241, 212);
+
+
+
+}
+#zen-supporting{
+background-color:white;
+padding: 30px;
+padding-top: 100px;
+margin-bottom: 50px;
+background-image: url("images/succulent.png");
+background-size: 15%;
+background-position: top right;
+background-repeat:no-repeat;
+}
+
+#zen-participation{
+background-image: url("images/plant1.jpg");
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: bottom right;
+border-style: solid;
+border-color: black;
+border-top: none;
+border-right: none;
+border-bottom: none;
+padding: 30px;
+padding-bottom: 50px;
+width: 60%;
+float:right;
+margin: 10px;
+height: 450px;
+margin-bottom: 50px;
+}
+
+.benefits{
+
+}
+#zen-benefits{
+	background-image: url("images/paper2.png");
+	background-size: 100%;
+color:white;
+padding: 30px;
+float:left;
+width: 20%;
+margin: 10px;
+margin-left: -150px;
+margin-top: 50px;
+height: 400px;
+position: absolute;
+margin-bottom: 100px;
+
+transform: rotate(20deg);
+transition: all 1s ease-out;
+}
+
+#zen-benefits:hover{
+	transform: rotate(0deg);
+	transition: 1s;
+}
+
+#zen-requirements{
+background-color:white;
+padding: 30px;
+padding-top: 550px;
+}
+
+footer{
+color:black;
+padding: 20px;
+background-image: url("images/dirt.jpg");
+background-size: 50%;
+text-align: center;
+
+word-spacing: 50px;
+font-size: 30px;
+font-weight:bold;
+
+}
+
+.sidebar{
+font-size: 12px;
+padding: 30px;
+}
+
+.wrapper{
+/*background-color:white;*/
+padding: 30px;
+border-style: solid;
+border-color:black;
+border-right: none;
+border-left: none;
+border-bottom: none;
+margin-bottom: 100px;
+color:gray;
+
+}
+
+.design-selection{
+position: relative;
+width: 40%;
+float:right;
+padding: 10px;
+
+}
+
+h3.select{
+
+}
+#zen-resources{
+	background-color:white;
+	position: relative;
+	float:left;
+	padding: 10px;
+	width: 20%;
+
+}
+
+#design-archives{
+
+position: relative;
+width: 20%;
+float:left;
+padding: 10px;
+}
+
+h3.archives{
+
+}
