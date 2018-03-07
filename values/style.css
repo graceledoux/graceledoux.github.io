@@ -1,0 +1,126 @@
+body{
+  width: 80%;
+  font-family: "futura-pt";
+  margin-left:10%;
+background-image: url("images/paper.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+background-attachment:fixed;}
+
+
+#header{
+  width:80%;
+  margin-top:100px;
+  text-align: center;
+  position:relative;
+  padding:20px;
+  margin-left:10%;
+  /*animation-name:header;*/
+  animation-duration:2s;
+  transition: all 4s ease-out;
+}
+
+@keyframes header{
+  0% {transform: rotate(180deg)}
+  100% {transform: rotate(0deg)}
+}
+
+#header:hover{
+  /*transform:rotate(300deg);*/
+  transition:4s;
+}
+
+#me{
+  width:300px;
+  position:relative;
+  float:left;
+  z-index:-1;
+  top:-300px;
+  left:-120px;
+  opacity: .9;
+}
+
+h1{
+  font-family: "flower-power";
+  font-size:75px;
+  text-align: center;
+  position: relative;
+  color:rgb(165, 76, 39);
+
+}
+
+h2{
+  text-align:center;
+  margin-bottom:70px;
+  font-weight:lighter;
+  color:black;
+  font-size:24px;
+  top:-30px;
+  position:relative;
+}
+
+
+p{
+  font-family: "futura-pt";
+  font-size:18px;
+  line-height: 1.7em;
+
+}
+
+
+#content{
+  /*background-color:white;*/
+  padding:20px;
+  margin-top:200px;
+  margin-bottom:100px;
+  width:100%;
+
+  border-style:solid;
+  border-color:black;
+  border-top:none;
+  border-right:none;
+  border-bottom:none;
+}
+
+.rowhold{
+  position:absolute;
+  height:300px;
+  width:70%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align:center;
+  align-items: center;
+  left:15%;
+  margin-top:80px;
+}
+
+#cell{
+  position:relative;
+  width: 200px;
+	height: 200px;
+  border-style:solid;
+  border-color:rgb(190, 211, 199);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;*/
+  text-align:center;
+  transition: all 2s ease-out;
+  margin: 20px;
+
+}
+
+#cell:hover{
+  background:rgb(249, 211, 87);
+  transform:scale(1.1);
+  transition:1.5s;
+}
+
+#button{
+  font-size:24px;
+  text-align:center;
+  color:black;
+  font-family: "futura-pt";
+  padding-top: 60px;
+}
