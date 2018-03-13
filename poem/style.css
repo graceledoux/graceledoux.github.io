@@ -1,0 +1,193 @@
+body {
+  background-image: url("images/paper.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top: 150px;
+  display: flex;
+  justify-content: left;
+}
+
+h1{
+  font-size:24px;
+  padding-left:350px;
+  position:relative;
+  z-index: 2;
+}
+
+
+.typewriter h1{
+  color: black;
+   font-family: 'john-doe';
+   line-height: 1.8em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing1 8s steps(43, end);
+}
+
+
+
+@keyframes typing1 {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
+
+.typewriter h1#line-2{
+  color: black;
+   font-family: 'john-doe';
+  overflow: hidden;
+  line-height: 1.8em;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing2 16s steps(38, end);
+
+}
+
+@keyframes typing2 {
+0% {width: 0;
+opacity: 0;}
+50% {width: 0;
+opacity: 1;}
+100% {width: 100%;
+opacity: 1;}
+
+}
+
+
+
+
+
+
+.typewriter h1#line-3{
+  color: black;
+   font-family: 'john-doe';
+  overflow: hidden;
+  line-height: 1.8em;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing3 24s steps(30, end);
+}
+@keyframes typing3 {
+  0% {width: 0;
+  opacity: 0;}
+  67% {width: 0;
+  opacity: 1;}
+  100% {width: 100%;
+  opacity: 1;}
+}
+
+
+
+
+
+
+
+.typewriter h1#line-4{
+  color: black;
+   font-family: 'john-doe';
+  overflow: hidden;
+  line-height: 1.8em;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing4 32s steps(30, end);
+}
+
+@keyframes typing4 {
+  0% {width: 0;
+  opacity: 0;}
+  75% {width: 0;
+  opacity: 1;}
+  100% {width: 100%;
+  opacity: 1;}
+}
+
+
+
+
+
+.typewriter h1#line-5{
+  color: black;
+   font-family: 'john-doe';
+  overflow: hidden;
+  line-height: 1.8em;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing5 40s steps(43, end);
+}
+
+@keyframes typing5 {
+  0% {width: 0;
+  opacity: 0;}
+  80% {width: 0;
+  opacity: 1;}
+  100% {width: 100%;
+  opacity: 1;}
+}
+
+
+#sky{
+  width: 450px;
+  position:absolute;
+  z-index: -2;
+  top:100px;
+  left:20px;
+  opacity: .8;
+  transform: rotate(-10deg);
+  animation-name: sky;
+  animation-duration: 30s;
+  transition: all 2s ease-out;
+}
+
+
+@keyframes sky{
+  0%{opacity:0}
+  60%{opacity:0}
+  100%{opacity:.8}
+}
+
+#sky:hover{
+  opacity:1;
+  transition: 1s;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:orange;
+  opacity: 1;
+}
+
+footer{
+  font-family: 'essonnes-text';
+  font-size:12px;
+  width: 100%;
+  position:absolute;
+  top:650px;
+  left:10px;
+  animation-name: footer;
+  animation-duration: 100s;
+}
+
+@keyframes footer{
+0% {opacity: 0;}
+40% {opacity: 0}
+41% {opacity: .8}
+100% {opacity: .8}
+}
