@@ -1,0 +1,40 @@
+body{
+  background-image: url("images/wood.jpg");
+}
+
+#clock{
+  background-color:rgb(255, 249, 229);
+  font-size: 100px;
+  color:black;
+  margin-top:100px;
+  margin-left: 20%;
+  text-align:center;
+  padding: 40px;
+  height: 350px;
+  width: 650px;
+  border-radius: 200px;
+  border-style:solid 5px;
+  border-color:black;
+  box-shadow: inset 0px 0px 20px 0px black;
+  position:relative;
+}
+
+#numbers{
+  position: relative;
+  top:90px;
+  font-family: 'buena-park-jf';
+
+}
+
+
+
+p{
+  display:inline;
+}
+
+#date{
+  width: 300px;
+  height: 400px;
+  background-color:white;
+  color:black;
+}
