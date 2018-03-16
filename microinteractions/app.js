@@ -61,7 +61,7 @@
           width: 20,
           opacity: 1,
           duration: 1,
-        })
+        });
         .add({
           targets: '.progress-bar',
           duration: 800,
@@ -83,7 +83,7 @@
           duration: 300,
           width: 500,
           elasticity: 350
-        })
+        });
     }
   });
 
@@ -92,11 +92,9 @@
     anime({
       targets: 'button',
       translateX: 250,
-      direction: 'alternate',
+      direction: 'alternate',});
 
-<<<<<<< HEAD
-=======
-    // This function runs every time the button is clicked
+
     var buttonPress = anime({
       autoplay: false,
       backgroundColor: '#FF4477',
@@ -112,26 +110,24 @@
     });
     $('#section-3 button').click(function() {
       buttonPress.play();
->>>>>>> c4eb99ce16c9f93ee50ccaf6f33e8a3df97c43a8
+
     });
   });
 
   $('#section-4').one('click', function(event, isInView) {
     $(event.target).addClass('run-animation');
-<<<<<<< HEAD
+
     anime({
   targets: '#buddy',
   backgroundColor: '#FFF',
   borderRadius: ['0px', '50px'],
   easing: 'easeInOutQuad',
 });
-=======
->>>>>>> c4eb99ce16c9f93ee50ccaf6f33e8a3df97c43a8
+
   });
 
   $('#section-5').one('click', function(event, isInView) {
     $(event.target).addClass('run-animation');
-<<<<<<< HEAD
 anime({
   targets: '#pal',
   translateY:['-200px', '0px', '-150px', '0px', '-100px', '0px', '-50px', '0px',],
@@ -147,12 +143,4 @@ anime({
   loop: 3,
 });
 
-
-
-
-
-=======
->>>>>>> c4eb99ce16c9f93ee50ccaf6f33e8a3df97c43a8
-  });
-
-})(jQuery);
+});
