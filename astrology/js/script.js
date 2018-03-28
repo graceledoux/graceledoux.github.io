@@ -41,6 +41,6 @@ document.getElementById("submit").addEventListener("click", function() {
     description.innerHTML = "Pisces are very friendly, so they often find themselves in a company of very different people. Pisces are selfless, they are always willing to help others, without hoping to get anything back. Their ruling planet is Neptune, so Pisces are more intuitive than others and have an artistic talent. Neptune is connected to music, so Pisces reveal music preferences in the earliest stages of life. They are generous, compassionate and extremely faithful and caring. This is the best sign.";
   }
   else {
-    description.innerHTML = "I don't recognize that sign. Try spell checking, and make sure to capitalize the first letter.";
+    description.innerHTML = "I don't recognize that sign. Try double-checking your spelling.";
   }
 });
