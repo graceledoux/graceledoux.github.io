@@ -115,3 +115,7 @@ img:hover{
   transform: scale(1.3);
   transition: 1s;
 }
+
+ol{
+  line-height: 2em;
+}
