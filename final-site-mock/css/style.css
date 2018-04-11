@@ -1,0 +1,119 @@
+body{
+font-family: "futura-pt";
+}
+
+#home-pics{
+  width: 80%;
+  position: relative;
+}
+
+#home-hand{
+  width: 35%;
+  position: absolute;
+  left: 800px;
+
+  transform: rotate(5deg);
+}
+
+#home-bschool{
+  width: 45%;
+  left: 400px;
+  position: absolute;
+  top: 250px;
+  transform: rotate(-3deg);
+
+}
+
+#home-mag{
+  width: 45%;
+  left:400px;
+  transform: rotate(3deg);
+  position: absolute;
+  z-index: -5;
+}
+
+#home-boxes{
+  width: 30%;
+  position: absolute;
+  left:150px;
+  top:50px;
+  transform: rotate(-5deg);
+}
+
+#header-home{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border-radius: 250px;
+  color:white;
+  background-color: rgb(242, 138, 0);
+  opacity: .78;
+  text-align: center;
+  display: block;
+  margin-left: 30%;
+  margin-top: 100px;
+
+}
+
+/*///////////////////////////////*/
+
+#menu{
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  background-color:white;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+}
+
+#menu-circle{
+  height: 80%;
+  position: relative;
+  left: 80px;
+  top: 5px;
+  opacity: 0;
+  z-index: -2;
+}
+
+#menu-circle3{
+  height: 90%;
+  width: 100px;
+  position: absolute;
+  left: 650px;
+  top: 10px;
+  opacity: 0;
+}
+
+#menu-circle:hover{
+  opacity: 1;
+}
+
+#menu-circle3:hover{
+  opacity: 1;
+}
+
+
+
+#menu a{
+float: left;
+ display: block;
+ color: black;
+ text-align: center;
+ padding-top: 15px;
+ padding-left:20px;
+ padding-right: 20px;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+#menu a:hover{
+  color:rgb(242, 138, 0);
+}

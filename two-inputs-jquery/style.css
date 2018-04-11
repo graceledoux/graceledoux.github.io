@@ -1,0 +1,18 @@
+
+body{
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+    font-family: Helvetica;
+}
+
+p{
+  font-family: Helvetica;
+  line-height: 2em;
+  font-size: 24px;
+}
+
+
+h1{
+  font-size: 50px;
+}
