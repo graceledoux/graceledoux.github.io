@@ -3,6 +3,7 @@ $(document).ready(function() {
     loop: true,
     margin: 10,
     responsiveClass: true,
+    autoHeight: true,
     responsive: {
       0: {
         items: 1,
