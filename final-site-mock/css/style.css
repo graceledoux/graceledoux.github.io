@@ -10,6 +10,7 @@ font-family: "windsor";
 
 body{
 font-family: "futura-pt";
+overflow-x: hidden;
 }
 
 
@@ -281,6 +282,12 @@ figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption {
 .grid-p figure:hover{
   transform: scale(1.5);
   transition: .4s;
+    z-index: 3;
+
+}
+
+.grid-p figure:hover img{
+  z-index: 3;
 }
 
 .grid-p figure img {
@@ -361,6 +368,7 @@ margin-top: -120px;
 
 a{
   color:rgb(242, 138, 0);
+  text-decoration: none;
 }
 
 /*///////////footer/////////*/
