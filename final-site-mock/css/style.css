@@ -1,11 +1,11 @@
 @font-face {
 font-family: "windsor";
 
- src: url('Windsor-Regular.eot') format('embedded-opentype'),
+ src: url('css/fonts/Windsor-Regular.eot') format('embedded-opentype'),
         url('FI2of5nt.eot'),
-     url('Windsor-Regular.woff') format('woff'),
-     url('Windsor-Regular.ttf')  format('truetype'),
-     url('Windsor-Regular.svg#svgWindsor') format('svg');
+     url('css/fonts/Windsor-Regular.woff') format('woff'),
+     url('css/fontsWindsor-Regular.ttf')  format('truetype'),
+     url('css/fonts/Windsor-Regular.svg#svgWindsor') format('svg');
 }
 
 body{
