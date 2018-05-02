@@ -43,13 +43,13 @@
 
       if (userAnswer === currentQuestion.correctAnswer) {
         numCorrect++;
-        answerContainers[questionNumber].style.color = "lightgreen";
+        answerContainers[questionNumber].style.color = "green";
       } else {
         answerContainers[questionNumber].style.color = "red";
       }
     });
 
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. Did you learn something?`;
   }
 
   const quizContainer = document.getElementById("quiz");
@@ -75,7 +75,7 @@
       correctAnswer: "b"
     },
     {
-      question: "The word PEZ comes from the German word for peppermint: PfeffErminZ.",
+      question: "The word PEZ comes from the German word for peppermint: Pfefferminz.",
       answers: {
         a: "That's true!",
         b: "Nope. PEZ are all-American, invented by Cornell student Paul Edgar Zine in the 40s as an alternative to smoking cigarettes.",
@@ -99,6 +99,78 @@
       correctAnswer: "b"
     },
     {
+      question: "Reno, Nevada is farther west than Los Angeles.",
+      answers: {
+        a: "True!",
+        b: "No way.",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Only male mosquitoes will bite you.",
+      answers: {
+        a: "That's right! The males are bigger and require more blood.",
+        b: "Nope. Actually, only females will bite you.",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "The little BIC pen logo guy has a name. It's BIC Boy.",
+      answers: {
+        a: "Unfortunately, that's true.",
+        b: "He actually doesn't have a name.",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Humans have five senses.",
+      answers: {
+        a: "It's been looked into extensively, and experts agree there are indeed five core senses.",
+        b: "There's actually debate on this; some scientists think we have up to 21!",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "A goldfish's memory is about 3 seconds long.",
+      answers: {
+        a: "True: their brains don't have a designated area for memory storage, and they're generally more concerned with day to day survival.",
+        b: "Nope! A goldfish can remember something for up to 3 months.",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "The sum of all the numbers on a roulette wheel is 666.",
+      answers: {
+        a: "Spooky and true.",
+        b: "Actually, they add up to 1,234.",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Judge Judy makes $25 million a year.",
+      answers: {
+        a: "Yes! She's one of the most successful long-term TV personalities.",
+        b: "Um, more like $45 million per year.",
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Horses can't vomit.",
+      answers: {
+        a: "That's true and really unfortunate, because this causes them to colic and can be life-threatening.",
+        b: "Of course horses can vomit.",
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Vikings wore their iconic horned helmets to intimidate their enemies by making their silhouettes less human.",
+      answers: {
+        a: "Yes and it worked! People learned to fear the horned outline.",
+        b: "Nope. A costume designer came up with the horned helmets for a 19th century opera.",
+      },
+      correctAnswer: "b"
+    },
+    {
       question: "The average cumulus cloud weighs rougly 1.1 million pounds.",
       answers: {
         a: "That's right!",
@@ -112,3 +184,13 @@
 
   submitButton.addEventListener("click", showResults);
 })();
+
+
+window.onscroll = function() {scrollbar()};
+
+function scrollbar() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("Bar").style.width = scrolled + "%";
+}
