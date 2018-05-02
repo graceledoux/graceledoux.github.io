@@ -49,7 +49,7 @@
       }
     });
 
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. Did you learn something?`;
+    resultsContainer.innerHTML = `You got ${numCorrect} out of ${myQuestions.length} right. Did you learn something?`;
   }
 
   const quizContainer = document.getElementById("quiz");
