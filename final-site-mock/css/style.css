@@ -1,4 +1,4 @@
-@media screen and (min-width: 401px){
+
 
 @font-face {
 font-family: "windsor";
@@ -244,16 +244,6 @@ figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption {
 	display: block;
 }
 
-@media screen and (max-width: 31.5em) {
-	.grid {
-		padding: 10px 10px 100px 10px;
-	}
-	.grid li {
-		width: 100%;
-		min-width: 300px;
-	}
-}
-
 
 /*/////////////pieces pages/////////*/
 
@@ -306,15 +296,7 @@ grid-p figure img:hover{
 }
 
 
-@media screen and (max-width: 31.5em) {
-	.grid-p {
-		padding: 10px 10px 100px 10px;
-	}
-	.grid-p li {
-		width: 100%;
-		min-width: 300px;
-	}
-}
+
 
 #description{
   width: 30%;
@@ -393,7 +375,7 @@ a{
 
 
 
-}
+
 
 
 
@@ -415,7 +397,7 @@ a{
 
 
 /*/////////////////////////phone//////////////////*/
-@media screen and (max-width: 400px){
+@media (max-width : 480px) {
 
 
 @font-face {
@@ -649,7 +631,7 @@ a#current{
 }
 
 
-}
+
 
 
 /*/////////////pieces pages/////////*/
@@ -761,5 +743,6 @@ a{
 #email:hover{
   opacity: 1;
   transition: .5s;
+}
 }
 }
