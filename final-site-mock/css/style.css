@@ -1,3 +1,5 @@
+@media screen and (min-width: 401px){
+
 @font-face {
 font-family: "windsor";
 
@@ -386,4 +388,409 @@ a{
 #email:hover{
   opacity: 1;
   transition: .5s;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////phone//////////////////*/
+@media screen and (max-width: 400px){
+
+
+@font-face {
+font-family: "windsor";
+
+ src: url('fonts/Windsor-Regular.eot') format('embedded-opentype'),
+        url('FI2of5nt.eot'),
+     url('fonts/Windsor-Regular.woff') format('woff'),
+     url('fonts/Windsor-Regular.ttf')  format('truetype'),
+     url('fonts/Windsor-Regular.svg#svgWindsor') format('svg');
+}
+
+body{
+font-family: "futura-pt";
+overflow-x: hidden;
+}
+
+
+h1{
+  font-family: "windsor";
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h2{
+  font-weight: lighter;
+  text-align: center;
+  position: relative;
+}
+
+#circle-home{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 250px;
+  background-color: rgb(242, 138, 0);
+  opacity: .70;
+  margin: auto;
+  margin-top: 50px;
+  animation-name: circle;
+  animation-duration: 3s;
+}
+  @keyframes circle{
+    0% {opacity: 0;
+        transform: scale(.1);}
+    50% {opacity: 0;
+          transform: scale(.1)}
+    98% {opacity: .70;
+        transform: scale(1.05)}
+    100% {opacity: .70;
+          transform: scale(1)}
+  }
+
+#text-home{
+  position: relative;
+  width: 300px;
+  margin: auto;
+  top: -200px;
+  text-align: center;
+  color:white;
+  z-index: 5;
+  line-height: .5em;
+  animation-duration: 1s;
+}
+
+
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(albers_frame.png) no-repeat;
+    background-size: cover;
+}
+
+/*///////////////////////////////*/
+
+#menu{
+  width: 120%;
+  left: -10%;
+  height: 60px;
+  overflow: hidden;
+  background-color:white;
+  position: relative;
+  top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+}
+
+
+
+
+#menu a{
+float: left;
+ display: block;
+ color: black;
+ text-align: center;
+ padding-top: 10px;
+ padding-left:20px;
+ padding-right: 20px;
+ text-decoration: none;
+ font-size: 16px;
+}
+
+#menu a:hover{
+  color:rgb(242, 138, 0);
+}
+
+a#current{
+  color:rgb(242, 138, 0);
+}
+/*
+/////////////////////*/
+
+.gallery{
+  position:absolute;
+  /*height:300px;*/
+  width:60%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  text-align:center;
+  align-items: center;
+  left:10%;
+  margin-top:50px;
+  margin-bottom: 200px;
+}
+
+#name{
+  font-family: windsor;
+  font-size: 30px;
+  position: relative;
+  left: 10px;
+  top: -30px;
+  color: rgb(242, 138, 0);
+  letter-spacing: .1em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+/*////////////////galleries///////////////*/
+
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 400px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 85%;
+  left: 5%;
+	display: block;
+	position: relative;
+  box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.18);
+
+
+}
+
+.grid figcaption {
+	position: relative;
+	top: 25px;
+	left: 0px;
+  padding-bottom: 50px;
+	color: black;
+  top: 10px;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 24px;
+	color: rgb(242, 138, 0);
+}
+
+
+.cs-style-1 figcaption {
+	height: auto;
+	width: 85%;
+  left: 5%;
+  border-radius: 150px;
+	opacity: 1;
+	text-align: center;
+}
+
+/*figure:hover figcaption, .cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	transform: scale(1) rotate(0deg);
+  cursor: pointer;
+}*/
+
+.cs-style-1 figcaption h3 {
+	/*margin-top: 70px;*/
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+
+
+/*/////////////pieces pages/////////*/
+
+.grid-p {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+  width: 50%;
+	margin-left:50px;
+	list-style: none;
+	text-align: center;
+}
+
+.grid-p li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid-p figure {
+	margin: 0;
+	position: relative;
+  transition: .4s ease-out;
+}
+
+.grid-p figure:hover{
+  transform: scale(1.5);
+  transition: .4s;
+    z-index: 3;
+
+}
+
+.grid-p figure:hover img{
+  z-index: 3;
+}
+
+.grid-p figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+  box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.18);
+
+}
+
+grid-p figure img:hover{
+  transform: scale(1.2);
+  transition: .4s;
+}
+
+
+@media screen and (max-width: 31.5em) {
+	.grid-p {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid-p li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+
+#description{
+  width: 30%;
+  position: fixed;
+  float:right;
+  margin-left: 55%;
+  top: 100px;
+}
+
+#drawing-vid{
+  margin-left:200px;
+  top: 50px;
+  position: relative;
+}
+/*
+/////////////////about////////*/
+
+#hi{
+color:black;
+position: relative;
+float: left;
+margin-top: -120px;
+
+
+}
+
+#about-me{
+  width:40%;
+  position: relative;
+  float:right;
+  margin-top:200px;
+  margin-right: 200px;
+
+
+}
+
+#me{
+  width:25%;
+  position: relative;
+  float:left;
+  margin-left:10%;
+  margin-top:100px;
+  animation-name: me;
+  animation-duration: .5s;
+}
+
+  @keyframes me{
+    0% {transform: scale(.1);
+    opacity: 0;}
+    100%{transform: scale(1);
+    opacity: 1;}
+  }
+
+a{
+  color:rgb(242, 138, 0);
+  text-decoration: none;
+}
+
+/*///////////footer/////////*/
+
+#email{
+  position: fixed;
+  text-decoration: none;
+  opacity: .5;
+  top:95%;
+  right:2%;
+  font-size: 14px;
+  transition: all .5s ease-out;
+}
+
+#email:hover{
+  opacity: 1;
+  transition: .5s;
+}
 }
