@@ -1,4 +1,4 @@
-
+@media (min-width : 481px){
 
 @font-face {
 font-family: "windsor";
@@ -376,7 +376,7 @@ a{
 
 
 
-
+}
 
 
 
@@ -426,6 +426,7 @@ h2{
   font-weight: lighter;
   text-align: center;
   position: relative;
+  left: 20px;
 }
 
 #circle-home{
@@ -528,7 +529,7 @@ a#current{
 .gallery{
   position:absolute;
   /*height:300px;*/
-  width:60%;
+  width:90%;
   display:flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
@@ -638,9 +639,9 @@ a#current{
 
 .grid-p {
 	padding: 20px 20px 100px 20px;
-	max-width: 400px;
-  width: 85%;
-	margin-left:10px;
+	max-width: 480px;
+  width: 90%;
+	margin-left:5%;
 	list-style: none;
 	text-align: center;
   position: relative;
@@ -648,15 +649,17 @@ a#current{
 
 .grid-p li {
 	display: inline-block;
-	width: 300px;
+	width: 480px;
 	margin: 0;
+  margin-left: -50px;
 	padding: 20px;
-	text-align: left;
+	text-align: center;
 	position: relative;
 }
 
 .grid-p figure {
 	margin: 0;
+  width: 100%;
 	position: relative;
 }
 
@@ -690,28 +693,30 @@ a#current{
 #hi{
 color:black;
 position: relative;
-float: left;
-margin-top: -120px;
+
+
 
 
 }
 
 #about-me{
-  width:40%;
+  width:80%;
+  left: 10%;
   position: relative;
-  float:right;
-  margin-top:200px;
-  margin-right: 200px;
+  margin-top:100px;
+  padding-bottom: 75px;
+
 
 
 }
 
 #me{
-  width:25%;
+  width:60%;
   position: relative;
   float:left;
-  margin-left:10%;
-  margin-top:100px;
+  margin-left:20%;
+  margin-bottom: 50px;
+  margin-top:50px;
   animation-name: me;
   animation-duration: .5s;
 }
@@ -743,6 +748,5 @@ a{
 #email:hover{
   opacity: 1;
   transition: .5s;
-}
 }
 }
