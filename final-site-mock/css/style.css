@@ -597,7 +597,7 @@ a#current{
 }
 
 .grid figure img {
-	max-width: 85%;
+	max-width: 90%;
   left: 5%;
 	display: block;
 	position: relative;
@@ -648,14 +648,7 @@ a#current{
 	display: block;
 }
 
-@media screen and (max-width: 31.5em) {
-	.grid {
-		padding: 10px 10px 100px 10px;
-	}
-	.grid li {
-		width: 100%;
-		min-width: 300px;
-	}
+
 }
 
 
@@ -663,16 +656,17 @@ a#current{
 
 .grid-p {
 	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
-  width: 50%;
-	margin-left:50px;
+	max-width: 400px;
+  width: 85%;
+	margin-left:10px;
 	list-style: none;
 	text-align: center;
+  position: relative;
 }
 
 .grid-p li {
 	display: inline-block;
-	width: 440px;
+	width: 300px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -682,50 +676,25 @@ a#current{
 .grid-p figure {
 	margin: 0;
 	position: relative;
-  transition: .4s ease-out;
 }
 
-.grid-p figure:hover{
-  transform: scale(1.5);
-  transition: .4s;
-    z-index: 3;
-
-}
-
-.grid-p figure:hover img{
-  z-index: 3;
-}
 
 .grid-p figure img {
-	max-width: 100%;
+	max-width: 85%;
 	display: block;
 	position: relative;
   box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.18);
 
 }
 
-grid-p figure img:hover{
-  transform: scale(1.2);
-  transition: .4s;
-}
 
 
-@media screen and (max-width: 31.5em) {
-	.grid-p {
-		padding: 10px 10px 100px 10px;
-	}
-	.grid-p li {
-		width: 100%;
-		min-width: 300px;
-	}
-}
 
 #description{
-  width: 30%;
-  position: fixed;
-  float:right;
-  margin-left: 55%;
-  top: 100px;
+  width: 85%;
+  position: relative;
+  text-align: left;
+  margin-left: 20px;
 }
 
 #drawing-vid{
