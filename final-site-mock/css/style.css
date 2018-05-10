@@ -13,6 +13,7 @@ font-family: "windsor";
 body{
 font-family: "futura-pt";
 overflow-x: hidden;
+
 }
 
 
@@ -355,22 +356,6 @@ a{
   text-decoration: none;
 }
 
-/*///////////footer/////////*/
-
-#email{
-  position: fixed;
-  text-decoration: none;
-  opacity: .5;
-  top:95%;
-  right:2%;
-  font-size: 14px;
-  transition: all .5s ease-out;
-}
-
-#email:hover{
-  opacity: 1;
-  transition: .5s;
-}
 
 
 
@@ -683,9 +668,10 @@ a#current{
 }
 
 #drawing-vid{
-  margin-left:200px;
-  top: 50px;
+
   position: relative;
+  padding-bottom: 50px;
+  width: 100%;
 }
 /*
 /////////////////about////////*/
